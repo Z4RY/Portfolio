@@ -1,0 +1,650 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: #F3F2F3;
+}
+
+/* Azonix */
+@font-face {
+    font-family: "azonix";
+    src: url(./Font/Azonix.otf) format("otf");
+}
+@font-face {
+    font-family: "product sans";
+    src: url(./Font/FontsFree-Net-ProductSans-Bold.ttf) format('truetype');
+}
+
+/* Work Sans */
+@font-face {
+    font-family: "work sans";
+    src: url(./Font/Work_Sans/WorkSans-VariableFont_wght.ttf) format('truetype');
+}
+
+/* Reem Kufi */
+@font-face {
+    font-family: "reem kufi";
+    src: url(./Font/Reem_Kufi/ReemKufi-VariableFont_wght.ttf) format('truetype');
+}
+
+
+/* ******************************************************************** LOADER **************************************************************************** */
+
+#loader{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: block;
+    background-color: #FF073B;
+    z-index: 999;
+}
+
+#a{
+    font-family: "azonix";
+    position: absolute !important;
+    top: 4.5%;
+    letter-spacing: 5vw;
+    font-size: 13vw;
+    color: #fff;
+    left: 8%;
+    opacity: 0;
+}
+#b{
+    font-family: "azonix";
+    position: absolute !important;
+    top: 4.5%;
+    letter-spacing: 5vw;
+    font-size: 13vw;
+    color: #fff;
+    left: 23%;
+    opacity: 0;
+}
+#u{
+    font-family: "azonix";
+    position: absolute !important;
+    top: 4.5%;
+    letter-spacing: 5vw;
+    font-size: 13vw;
+    color: #fff;
+    left: 38%;
+    opacity: 0;
+}
+#z{
+    font-family: "azonix";
+    position: absolute !important;
+    top: 4.5%;
+    letter-spacing: 5vw;
+    font-size: 13vw;
+    color: #fff;
+    left: 53%;
+    opacity: 0;
+}
+#a1{
+    font-family: "azonix";
+    position: absolute !important;
+    top: 4.5%;
+    letter-spacing: 5vw;
+    font-size: 13vw;
+    color: #fff;
+    left: 69%;
+    opacity: 0;
+}
+#r{
+    font-family: "azonix";
+    position: absolute !important;
+    top: 4.5%;
+    letter-spacing: 5vw;
+    font-size: 13vw;
+    color: #fff;
+    left: 85%;
+    opacity: 0;
+}
+
+
+
+/* ********************************************************************* PAGE-1 ************************************************************************** */
+
+#page1{
+    width: 100%;
+    height: 100vh;
+    background-color: #000105;
+    position: relative;
+    z-index: 99;
+}
+
+#circle{
+    background-color: #FF073B;
+    width: 25vw;
+    height: 25vw;
+    border-radius: 50%;
+    position: absolute;
+    left: 38%;
+    top: 18%;
+}
+
+#firstname{
+    color: white;
+    font-family: "azonix";
+    font-size: 6.3vw;
+    position: absolute;
+    letter-spacing: 1vw;
+    top: 33%;
+    left: 1%;
+}
+
+#lastname{
+    color: white;
+    font-family: "azonix";
+    font-size: 6.3vw;
+    position: absolute;
+    letter-spacing: 1vw;
+    top: 47%;
+    left: 30.5%;
+}
+
+#page1-content{
+    position: absolute;
+    width: 29vw;
+    height: 10vw;
+    /* background-color: aliceblue; */
+    left: 2%;
+    top: 82%;
+}
+
+#page1 h5{
+    font-size: 1.1vw;
+    color: #fff;
+    font-family: "product sans";
+}
+
+
+
+/* ******************************************************* Home ****************************************************************** */
+
+
+
+#home{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    background-color: #F3F2F3;
+    z-index: 99;
+    top: 5%;
+}
+
+#nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 40vw;
+    /* position: absolute; */
+    top: 15%;
+}
+#nav{
+    /* background-color: red; */
+    position: relative;
+    left: 65%;
+}
+
+#nav a{
+    font-family: "Product sans";
+    text-decoration: none;
+    color: #FF073B;
+}
+
+#resume{
+    background-color: transparent;
+    width: 6vw;
+    height: 3vw;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: -1vw;
+    left: 230%;
+    color: #FF073B;
+    border: 2.5px solid #FF073B;
+    font-family: "product sans";
+}
+
+#resume:hover{
+    background-color: #FF073B;
+    /* border: 2.5px solid #000; */
+    color: #Fff;
+    /* opacity: 0; */
+}
+
+
+
+#home-content{
+    width: 80%;
+    left: 10%;
+    height: 75%;
+    top: 12%;
+    /* background-color: yellow; */
+    position: relative;
+}
+
+#hi{
+    font-family: "Roboto Mono";
+    color: #FF073B;
+    font-size: 1.5vw;
+    position: relative;
+    top: 9%;
+}
+
+#heading1{
+    font-family: "Product sans";
+    font-weight: 600;
+    color: #FF073B;
+    font-size: 5vw;
+    position: relative;
+    top: 9%;
+    left: -1%;
+}
+
+#heading2{
+    font-family: "Product sans";
+    font-weight: 600;
+    color: #22050d;
+    font-size: 4.5vw;
+    position: relative;
+    opacity: 0.9;
+    top: 6%;
+    left: -1%;
+}
+
+#home-content p{
+    font-family: "product sans";
+    width: 50vw;
+    font-size: 1.5vw;
+    color: #051522;
+    position: relative;
+    top: 15.5%;
+    left: -1%;
+}
+
+#linked{
+    font-family: "product sans";
+    width: 26vw;
+    height: 4.5vw;
+    border-radius: 10px;
+    background-color: transparent;
+    font-size: 1.5vw;
+    position: relative;
+    top: 32%;
+    left: -1%;
+    border: 2.5px solid #FF073B;
+}
+
+span{
+    color: #FF073B;
+}
+
+#linked:hover{
+    cursor: pointer;
+    background-color: #FF073B;
+    /* border: 2.5px solid #000; */
+    color: #Fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#projects{
+    width: 100%;
+    height: 300vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 13vw;
+}
+
+#project1-container{
+    width: 90%;
+    height: 70vh;
+    position: relative;
+    top: 4%;
+    /* background-color: red; */
+    left: 5%;
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: flex-end; */
+}
+#subhead{
+    font-family: "roboto mono";
+    position: absolute;
+    left: 5%;
+    top: 1%;
+    color: #FF073B;
+}
+
+#p1-left{
+    width: 50%;
+    height: 100%;
+    background-color: transparent;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+#p1-left img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#ola{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: 0 30%;
+}
+
+
+#p1-right{
+    width: 50vw;
+    height: 100%;
+    /* background-color: teal; */
+    border-radius: 10px;
+}
+
+#project2-container{
+    width: 90%;
+    height: 70vh;
+    position: relative;
+    top: 4%;
+    /* background-color: red; */
+    left: 5%;
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: flex-end; */
+}
+
+#project3-container{
+    width: 90%;
+    height: 70vh;
+    position: relative;
+    top: 4%;
+    /* background-color: red; */
+    left: 5%;
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: flex-end; */
+}
+
+
+
+
+
+#p1-right h2{
+    font-family: "Roboto Mono";
+    font-size: 2.7vw;
+    position: relative;
+    left: 6%;
+    top: 15%;
+    color: #FF073B;
+}
+
+#disc1{
+    font-family: "product sans";
+    width: 75%;
+    height: 50%;
+    background-color: transparent;
+    position: relative;
+    left: 2%;
+    top: 10%;
+    display: flex;
+    align-items: center;
+}
+
+#disc1 p{
+    font-size: 1.5vw;
+    padding-left: 2vw;
+}
+
+#view{
+    font-family: "product sans";
+    width: 20%;
+    height: 3vw;
+    background-color: transparent;
+    position: relative;
+    top: 10%;
+    left: 6%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FF073B;
+    border-radius: 10px;
+    border: 2.5px solid #FF073B;
+}
+
+#view:hover{
+    cursor: pointer;
+    background-color: #FF073B;
+    color: #Fff;
+    border: none;
+    transition: ease-in;
+}
+#p1-right a{
+    text-decoration: none;
+}
+
+
+#skills{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+#skills h2{
+    font-family: "product sans";
+    position: absolute;
+    font-size: 2.5vw;
+    top: 18%;
+    left: 20%;
+}
+
+#desc3{
+    font-size: 1.5vw;
+    font-family: "product sans";
+    font-weight: 100;
+    position: absolute;
+    top: 28%;
+    left: 20%;
+}
+
+#lan{
+    font-family: "product sans";
+    font-size: 2vw;
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    color: #FF073B;
+}
+#tool{
+    font-family: "product sans";
+    font-size: 2vw;
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    color: #FF073B;
+}
+
+#lang{
+    display: flex;
+    /* flex-direction: column; */
+    width: 70%;
+    height: 15vh;
+    /* background-color: red; */
+    position: absolute;
+    /* justify-content: center; */
+    gap: 2vw;
+    top: 43%;
+}
+
+#skill-icon{
+    width: 4vw;
+    height: 4vw;
+    /* background-color: aqua; */
+    position: relative;
+    left: 28%;
+}
+/* #skill-icon h5{
+    font-size: 1vw;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 25%;
+
+} */
+#skill-name{
+    position: relative;
+    font-family: "product sans";
+    font-weight: 400;
+    top: 10%;
+    /* padding-top: 3vw; */
+    font-size: 1vw;
+    left: 20%;
+    /* opacity: 0; */
+}
+#skill-icon img{
+    object-fit: cover;
+    width: 100%;
+    height: 4vw;
+}
+
+#lang2{
+    /* background-color: yellow; */
+    display: flex;
+    gap: 2vw;
+    position: absolute;
+    top: 68%;
+    left: 12%;
+}
+
+/* #skill-icon p:hover{
+    opacity: 1;
+} */
+
+
+
+
+
+
+
+
+
+
+/* ***************************************************************************************************************************************************** */
+
+#contact{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+#contact h1{
+    font-family: "product sans";
+    font-size: 4.5vw;
+    position: absolute;
+    top: 20%;
+    left: 38%;
+    color: #FF073B;
+}
+
+#contact p{
+    font-family: "product sans";
+    font-size: 1.5vw;
+    width: 50%;
+    position: absolute;
+    top: 35%;
+    left: 26.8%;
+    line-height: 2vw;
+    color: #051522;
+    text-align: center;
+}
+
+#soical{
+    width: 80%;
+    height: 15vh;
+    /* background-color: green; */
+    position: relative;
+    top: 56.5%;
+    display: flex;
+    justify-content: center;
+    gap: 4vw;
+    left: 12%;
+}
+
+#soical-icon{
+    width: 3.4vw;
+    height: 3.2vw;
+    /* background-color: yellow; */
+}
+#soical-icon img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#contact button{
+    font-family: "product sans";
+    font-size: 1.5vw;
+    background-color: transparent;
+    border: 2.5px solid #FF073B;
+    color: #FF073B;
+    padding: 1vw 2.5vw;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    top: 56%;
+    left:45%;
+}
+
+
+#contact button:hover{
+    background-color: #FF073B;
+    color: #fff;
+}
